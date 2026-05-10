@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sajjad Digitals</title>
+
+  <style>
+
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#0f0f0f;
+      color:white;
+    }
+
+    /* HERO */
+    .hero{
+      text-align:center;
+      padding:70px 20px;
+      background:#111;
+    }
+
+    .hero h1{
+      color:#00ffcc;
+      font-size:42px;
+    }
+
+    .hero p{
+      color:#ccc;
+    }
+
+    .btn{
+      background:#00ffcc;
+      color:black;
+      padding:10px 20px;
+      border-radius:10px;
+      text-decoration:none;
+      display:inline-block;
+      margin-top:15px;
+    }
+
+    /* SECTION */
+    .section{
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    .section h2{
+      color:#00ffcc;
+    }
+
+    .card{
+      background:#1c1c1c;
+      margin:10px auto;
+      padding:20px;
+      width:80%;
+      border-radius:10px;
+    }
+
+    /* FOOTER */
+    .footer{
+      text-align:center;
+      padding:20px;
+      background:#111;
+      color:#aaa;
+    }
+
+    /* WHATSAPP */
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:white;
+      padding:12px 15px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1>Sajjad Digitals</h1>
+    <p>Web Developer | Designer | Content Writer</p>
+    <a class="btn" href="#contact">Hire Me</a>
+  </div>
+
+  <div class="section">
+    <h2>About Me</h2>
+    <div class="card">
+      I am a passionate web developer and designer helping businesses grow online with modern websites and designs.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Services</h2>
+
+    <div class="card">Logo Design</div>
+    <div class="card">Website Development</div>
+    <div class="card">Social Media Posts</div>
+
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+
+    <div class="card">
+      📞 923700207589 <br>
+      📧 sajjaddigitals.pk@gmail.com
+    </div>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/923700207589" target="_blank">
+    WhatsApp
+  </a>
+
+  <div class="footer">
+    © 2026 Sajjad Digitals
+  </div>
+
+</body>
+</html>
